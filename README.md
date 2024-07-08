@@ -25,7 +25,7 @@ translating it.
 # Antes de instalar o Tauri
 ## Certifique-se dos pré-requisitos
 
-A depender do Sistema Operacional, é necessário a instalação de pacotes extras. Saiba mais ![aqui](https://tauri.app/v1/guides/getting-started/prerequisites/).
+A depender do Sistema Operacional, é necessário a instalação de pacotes extras. Saiba mais [aqui](https://tauri.app/v1/guides/getting-started/prerequisites/).
 
 ## Linux Debian (Raspiberry Pi):
 
