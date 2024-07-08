@@ -22,6 +22,24 @@ translating it.
 
 - IBSEN IMON 512 / 256 (testado no 521, mas deve funcionar para o 256 também)
 
+# Antes de instalar o Tauri
+## Certifique-se dos pré-requisitos
+
+A depender do Sistema Operacional, é necessário a instalação de pacotes extras. Saiba mais ![aqui](https://tauri.app/v1/guides/getting-started/prerequisites/).
+
+## Linux Debian (Raspiberry Pi):
+
+`sudo apt update`
+`sudo apt install libwebkit2gtk-4.0-dev \
+    build-essential \
+    curl \
+    wget \
+    file \
+    libssl-dev \
+    libgtk-3-dev \
+    libayatana-appindicator3-dev \
+    librsvg2-dev`
+
 # Como usar
 
 Para usuários de windows, os arquivos binários pré compilados podem ser
