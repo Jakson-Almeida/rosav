@@ -236,8 +236,8 @@ button:active {
   padding: 0px 2px;
 }
 
-.info {
-}
+// .info {
+// }
 
 .warning {
   background-color: $warning_back;
@@ -434,4 +434,14 @@ select {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
+}
+
+// Test camp ---------------------------------------------------------------------------------------------------
+
+.csv-front h1 {
+  color: $fujiWhite;
+}
+
+.csv-front h2:hover {
+  color: $springGreen;
 }

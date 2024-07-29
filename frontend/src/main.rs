@@ -281,6 +281,9 @@ fn LowerBar<'a, G: Html>(cx: Scope<'a>, props: LowerBarProps<'a>) -> View<G> {
                 button(on:click=enter_traces, title="Traços") { "󰽉 "}
                 button(on:click=enter_config, title="Configurações") { "󰢻 "}
             }
+            div(class="csv-front") {
+                h2 { "CSV" }
+            }
             div() {
                 (match *props.connection_state.get() {
                     ConnectionState::Connected =>
