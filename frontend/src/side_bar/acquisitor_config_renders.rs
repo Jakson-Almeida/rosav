@@ -75,6 +75,31 @@ pub fn RenderFileReaderConfig<G: Html>(cx: Scope) -> View<G> {
             }
 
         }
+
+        br() {}
+        br() {}
+        br() {}
+
+        h3(style="padding-left: 6px;") { "            " }
+        img(src="images/LPFGs.PNG", width="98%")
+
+        form(on:submit=form_blur) {
+            input(type="submit", style="display: none;")
+
+            p(class="mini-title") {
+                p { "Aquisitor CSV" }
+                p { "(Leitor de Arquivos) "}
+            }
+
+            div(class="element") {
+                p { "Caminho para vigiar:" }
+                p {
+                    button(on:click=update_watcher_path) { " " }
+                    (watcher_path.get())
+                }
+            }
+
+        }
     }
 }
 

@@ -16,8 +16,8 @@ fn main() {
     let (log_tx, log_rx) = mpsc::sync_channel::<Log>(64);
     log_info(&log_tx, "[MST] Iniciando o programa".to_string());
 
-    log_info(&log_tx, "Os dados abaixo foram extraídos de rosav/scr-tauri/data/strat_0.csv".to_string());
-    show_strat("data/strat_0.csv");
+    // log_info(&log_tx, "Os dados abaixo foram extraídos de rosav/scr-tauri/data/strat_0.csv".to_string());
+    // show_strat("data/strat_0.csv");
 
     if fern_result.is_err() {
         log_war(
