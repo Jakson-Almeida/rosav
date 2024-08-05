@@ -104,7 +104,7 @@ pub fn log_error(tx: &SyncSender<Log>, msg: String) {
 
 // CSV files
 
-/// Aproxima um espectro de LPFG por uma lorentziana
+/// Aproxima um espectro de LPFG por uma lorentziana em Rust
 ///
 /// # Parâmetros
 ///
